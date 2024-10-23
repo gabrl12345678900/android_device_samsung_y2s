@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_y2s.mk
+    $(LOCAL_DIR)/derp_y2s.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_y2s-user \
-    aosp_y2s-userdebug \
-    aosp_y2s-eng
+    derp_y2s-user \
+    derp_y2s-userdebug \
+    derp_y2s-eng
