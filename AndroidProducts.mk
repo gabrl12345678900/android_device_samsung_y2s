@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_y2s.mk
+    $(LOCAL_DIR)/lmodroid_y2s.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_y2s-user \
-    lineage_y2s-userdebug \
-    lineage_y2s-eng
+    lmodroid_y2s-user \
+    lmodroid_y2s-userdebug \
+    lmodroid_y2s-eng
