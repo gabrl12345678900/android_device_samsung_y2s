@@ -23,7 +23,7 @@ $(call inherit-product, device/samsung/y2s/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tablet.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_CALL_RECORDING := true
@@ -31,7 +31,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := y2s
-PRODUCT_NAME := lineage_y2s
+PRODUCT_NAME := lmodroid_y2s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G986B
 PRODUCT_MANUFACTURER := samsung
